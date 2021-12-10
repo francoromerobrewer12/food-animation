@@ -1,0 +1,56 @@
+.section3-container {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: black;
+    z-index: 20;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .images-wrapper {
+    position: relative;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .section_3_06 {
+      position: absolute;
+      top: 40%;
+    }
+
+    .section_3_05 {
+      position: absolute;
+      top: 40%;
+    }
+
+    .section_3_04 {
+      position: absolute;
+      top: 38%;
+    }
+
+    .section_3_03 {
+      position: absolute;
+      top: 38%;
+    }
+
+    .section_3_02 {
+      position: absolute;
+      top: 38%;
+    }
+    .section_3_01 {
+      position: absolute;
+      top: 38%;
+    }
+  }
+}
